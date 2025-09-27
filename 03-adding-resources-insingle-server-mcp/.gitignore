@@ -1,20 +1,18 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
+# Virtual environment
 venv/
-.venv/
 ENV/
 env/
+.venv/
 
 # Environment variables
 .env
-.env.*
-*.env
 
-# VS Code
+# VS Code settings
 .vscode/
 
 # OS files
