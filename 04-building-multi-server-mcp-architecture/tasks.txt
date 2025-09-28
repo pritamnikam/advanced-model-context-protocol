@@ -1,0 +1,2 @@
+Write the Tokyo weather section
+Write the Tokyo weather section, and followed by forcast on weather, possible delay on flight schedule

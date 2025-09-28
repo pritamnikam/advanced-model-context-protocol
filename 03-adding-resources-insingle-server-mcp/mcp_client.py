@@ -15,6 +15,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 from langchain_mcp_adapters.tools import load_mcp_tools
+from dotenv import load_dotenv
+
 # Load environment variables from .env file
 load_dotenv()
 
