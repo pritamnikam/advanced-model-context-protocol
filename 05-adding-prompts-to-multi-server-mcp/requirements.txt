@@ -1,0 +1,10 @@
+Flask
+requests
+dotenv
+
+# langchain
+mcp
+langchain
+langgraph
+langchain-google-genai
+langchain-mcp-adapters
