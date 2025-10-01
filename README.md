@@ -1,6 +1,6 @@
 # Advanced Model Context Protocol
 
-A Python-based client-server architecture demonstrating the Model Context Protocol (MCP) with secure environment management, weather data integration, AI model support, resource/task management, and prompt-based workflows.
+A Python-based client-server architecture demonstrating the Model Context Protocol (MCP) with secure environment management, weather data integration, AI model support, resource/task management, prompt-based workflows, and Retrieval-Augmented Generation (RAG).
 
 ## Subprojects
 
@@ -16,6 +16,8 @@ A Python-based client-server architecture demonstrating the Model Context Protoc
   Adds prompt-based workflows and multi-server prompt orchestration.
 - `06-adding-resources-to-multi-server-mcp/`  
   Adds resource management features to both Weather and Task servers, enabling resource-driven workflows.
+- `07-implement-rag-server-using-mcp/`  
+  Implements a Retrieval-Augmented Generation (RAG) server using MCP, LangChain, LangGraph, and Google Gemini.
 
 ## Getting Started
 
@@ -30,8 +32,10 @@ Clone this repository and follow the steps in the relevant subproject folder.
 - **Task Server**:  
   - Manages tasks and supports prompt-based workflows.
   - Exposes resource endpoints (e.g., meeting notes).
+- **RAG Server**:  
+  - Supports document ingestion and retrieval using generative AI and embeddings.
 - **MCP Client**:  
-  - Interacts with both servers for weather, tasks, and resource-driven operations.
+  - Interacts with all servers for weather, tasks, resource-driven operations, and RAG queries.
 
 ## Repository Structure
 
@@ -43,6 +47,7 @@ advanced-model-context-protocol/
 ├── 04-building-multi-server-mcp-architecture/
 ├── 05-adding-prompts-to-multi-server-mcp/
 ├── 06-adding-resources-to-multi-server-mcp/
+├── 07-implement-rag-server-using-mcp/
 ├── README.md
 └── .gitignore
 ```
