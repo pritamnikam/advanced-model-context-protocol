@@ -1,0 +1,10 @@
+# llama-index
+llama-index # Core LlamaIndex library
+llama-index-core # Core components of LlamaIndex
+llama-index-llms-google-genai # Google GenAI LLM integration for LlamaIndex
+llama-index-tools-mcp # MCP tools for LlamaIndex
+
+mcp # MCP library
+python-dotenv # For reading .env files
+Flask # Web framework
+requests # HTTP library
