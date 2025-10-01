@@ -1,0 +1,15 @@
+Flask
+requests
+dotenv
+
+# langchain
+mcp
+langchain
+langgraph
+langchain-google-genai
+langchain-mcp-adapters
+langchain-community # wide range of community-maintained LangChain integrations, including the TextLoader we will use to load our document.
+
+# vector DB
+chromadb # the core package for the Chroma vector database, which will store and search our document embeddings.
+langchain-chroma # specific adapter library that allows LangChain to seamlessly work with a ChromaDB vector store.
