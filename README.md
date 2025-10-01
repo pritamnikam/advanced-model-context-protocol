@@ -14,11 +14,24 @@ A Python-based client-server architecture demonstrating the Model Context Protoc
   Demonstrates a multi-server MCP architecture with separate weather and task servers.
 - `05-adding-prompts-to-multi-server-mcp/`  
   Adds prompt-based workflows and multi-server prompt orchestration.
+- `06-adding-resources-to-multi-server-mcp/`  
+  Adds resource management features to both Weather and Task servers, enabling resource-driven workflows.
 
 ## Getting Started
 
 Each subproject contains its own `README.md` with setup and usage instructions.  
 Clone this repository and follow the steps in the relevant subproject folder.
+
+## Example Features
+
+- **Weather Server**:  
+  - Provides weather data using OpenWeatherMap API.
+  - Exposes resource endpoints (e.g., delivery logs).
+- **Task Server**:  
+  - Manages tasks and supports prompt-based workflows.
+  - Exposes resource endpoints (e.g., meeting notes).
+- **MCP Client**:  
+  - Interacts with both servers for weather, tasks, and resource-driven operations.
 
 ## Repository Structure
 
@@ -29,6 +42,17 @@ advanced-model-context-protocol/
 ├── 03-adding-resources-insingle-server-mcp/
 ├── 04-building-multi-server-mcp-architecture/
 ├── 05-adding-prompts-to-multi-server-mcp/
+├── 06-adding-resources-to-multi-server-mcp/
 ├── README.md
 └── .gitignore
 ```
+
+## Best Practices
+
+- Use `.env-example` to share required environment variable names.
+- Never commit your `.env` file or generated files (like `tasks.txt`) to version control.
+- Each subproject is self-contained and can be run independently.
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for details.
